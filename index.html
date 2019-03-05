@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+    <link rel="stylesheet" href="css/weather.css" type="text/css">
+</head>
+<body>
+        <nav>
+                <a href="#" id="first">Weather Statistic</a>
+                <a href="#" id="second">Hourly Weather Stats</a>
+                <input type="text" name="text" id="text">
+                <input type="button" value="Search" id="info">
+            </nav>
+    <div id="container1">
+        <div class="box" id="box1">
+            <p><span id="avergeT"></span></p>
+            <p><span id="highestT"></span></p>
+            <p><span id="lowestT"></span></p>
+            <p id="coldestT"></p>
+        </div>
+        <div class="box" id="box2">
+                <p><span id="avergeH"></span></p>
+                <p><span id="highestH"></span></p>
+                <p><span id="lowestH"></span></p>
+                <p id="warmestT"></p>
+            </div>
+        </div>
+        <div id="container2">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Weather</th>
+                        <th>Time</th>
+                        <th>Temperature</th>
+                        <th>Humidity</th>
+                        <th>Wind Speed</th>
+                    </tr>
+                </thead>
+                <tbody id="tableB"></tbody>
+            </table>
+        </div>
+    <script src="weather.js"></script>
+</body>
+</html>

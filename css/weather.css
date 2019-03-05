@@ -1,0 +1,37 @@
+*{
+    font-family: 'Teko', sans-serif;
+}
+body{
+    background-image: url(../images/photo.jpg);
+    color: white;
+}
+nav{
+    background-color: rgb(30, 47, 70);
+    padding: 20px;
+    font-size: 20px;
+}
+nav a{
+    color: white;
+    margin: 10px;
+}
+.box{
+    display: inline-block;
+    margin: 200px;
+}
+#table{
+    border: 3px solid white;
+    padding: 8px;
+    margin: auto;
+    width: 100%;
+}
+tr th{
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+}
+tr td{
+    padding: 8px;
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+}
